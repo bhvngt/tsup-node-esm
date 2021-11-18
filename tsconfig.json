@@ -1,0 +1,16 @@
+{
+	"include": ["src", "tests"],
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"lib": ["dom", "esnext"],
+		"module": "ESNext",
+		"target": "ESNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"types": ["node", "mocha"],
+		"baseUrl": ".",
+		"paths": {
+			"$src/*": ["src/*"]
+		}
+	}
+}
